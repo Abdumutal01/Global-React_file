@@ -1,0 +1,14 @@
+@import './fonts';
+@import './mixins';
+@import './variable';
+@import './star';
+@import './body';
+
+
+* {
+    @include star()
+}
+
+body {
+    @include body()
+}

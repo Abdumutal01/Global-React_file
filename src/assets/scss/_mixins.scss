@@ -1,0 +1,47 @@
+@mixin display() {
+    display: flex;
+    align-items: center;
+}
+
+@mixin between() {
+    justify-content: space-between;
+}
+
+@mixin end() {
+    margin-right: 0;
+    display: flex;
+    justify-content: end;
+}
+
+@mixin list() {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+@mixin center() {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@mixin title() {
+    font-size: 46px;
+    font-weight: 700;
+    color: black;
+}
+
+@mixin text() {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@mixin link() {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Heebo;
+    font-size: 20px;
+}

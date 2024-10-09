@@ -1,0 +1,15 @@
+@import '../../assets//scss/main.scss';
+
+.header {
+    padding: 50px 0px;
+
+    &__nav {
+        @include display;
+        justify-content: space-between;
+    }
+
+    &__list {
+        @include display;
+        gap: 25px;
+    }
+}

@@ -1,0 +1,6 @@
+@mixin body() {
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    min-height: 150vh;
+}
